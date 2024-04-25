@@ -49,5 +49,13 @@ zero_shot_infernece_2 = ZeroShotInference(task_2, model_2)
 result_2 = zero_shot_infernece_2.generate_text(prompt)
 print(result_2)
 ```
+
+### IN 2nd Task
+## Quatization
+The model uses quantization techniques for efficient inference, reducing memory usage and speeding up response times using `BitsAndBytesConfig`
+
+### HF_TOEKN
+for HF_token as mention i have generated the token from huggingFace and have added to secret of google colab to be used
+
 ## Contributions
 Contributions to the project are welcome. Feel free to fork the repository, make your changes, and submit a pull request. You can also open issues to suggest improvements or report bugs.
