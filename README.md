@@ -54,8 +54,16 @@ print(result_2)
 ## Quatization
 The model uses quantization techniques for efficient inference, reducing memory usage and speeding up response times using `BitsAndBytesConfig`
 
-### HF_TOEKN
+### HF_TOKEN
 for HF_token as mention i have generated the token from huggingFace and have added to secret of google colab to be used
+
+
+### IN 3rd Task
+This task  aims to fine-tune the Mistral model for generating instructional text using the 7B variant. It involves training the model on a specific dataset and then using it to generate instructional text based on given prompts.
+
+## FineTunning
+The Fine-Tuning Mistral Instruct 7B project leverages the Mistral model, a large-scale language model, for generating instructional text. By fine-tuning the model on a dataset containing instructional text, the goal is to create a specialized model capable of generating coherent and informative instructions.
+
 
 ## Contributions
 Contributions to the project are welcome. Feel free to fork the repository, make your changes, and submit a pull request. You can also open issues to suggest improvements or report bugs.
